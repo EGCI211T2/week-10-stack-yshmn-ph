@@ -17,7 +17,7 @@ int main(int argc, char **argv){
     
     int i;
     for(i=1;i<argc;i++){
-        if( argv [i][0] == 'x')  s.pop();
+        if( argv [i] == 'x')  s.pop();
         else s.push(atoi(argv[i]));
     }
      
