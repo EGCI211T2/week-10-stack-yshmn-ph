@@ -37,7 +37,7 @@ int Stack::pop(){
         return value;
         }
 	cout << "Empty Stack" << endl;
-    return NULL;
+    return 0;
     
     }
 
